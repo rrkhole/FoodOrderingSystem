@@ -21,9 +21,12 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
         $row=mysqli_fetch_array($result);
         if($row['email']==$login){
         $_SESSION['email']=$login;
-        
+        $_SESSION['username']=$row['Username'];
         }
-        else {$_SESSION['username']=$login;}
+        else {
+        $_SESSION['username']=$login;
+        $_SESSION['email']=$row['Email'];
+        }
         $_SESSION['user_id']=$row['Id'];
         header('location:products.php');
     }

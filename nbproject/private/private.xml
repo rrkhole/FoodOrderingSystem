@@ -3,9 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/TE1/DBMS/Xampp/htdocs/DBMS_project/logout_script.php</file>
-            <file>file:/E:/TE1/DBMS/Xampp/htdocs/DBMS_project/signup.php</file>
-            <file>file:/E:/TE1/DBMS/Xampp/htdocs/DBMS_project/login.php</file>
+            <file>file:/E:/TE1/DBMS/Xampp/htdocs/DBMS_project/cart-add.php</file>
+            <file>file:/E:/TE1/DBMS/Xampp/htdocs/DBMS_project/includes/header.php</file>
+            <file>file:/E:/TE1/DBMS/Xampp/htdocs/DBMS_project/includes/common.php</file>
+            <file>file:/E:/TE1/DBMS/Xampp/htdocs/DBMS_project/includes/check-if-added.php</file>
+            <file>file:/E:/TE1/DBMS/Xampp/htdocs/DBMS_project/products.php</file>
         </group>
     </open-files>
 </project-private>
