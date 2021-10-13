@@ -6,7 +6,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
             </button>
-            <a class="navbar-brand" href="index.php">Order Tasty Food</a>
+            <a class="navbar-brand" href="products.php">Order Tasty Food</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
@@ -14,7 +14,8 @@
                 if (isset($_SESSION['email']) or isset($_SESSION['username'])) {
                     ?>
                     <li><a href = "cart.php"><span class = "glyphicon glyphicon-shopping-cart"></span> Cart </a></li>
-                    <li><a href = "settings.php"><span class = "glyphicon glyphicon-user"></span> Settings</a></li>
+                 <?php $id=$_SESSION['user_id'];
+                 echo "<li><a href = 'settings.php?id=$id'><span class = \"glyphicon glyphicon-user\"></span> Settings</a></li>";?>
                     <li><a href = "logout_script.php"><span class = "glyphicon glyphicon-log-in"></span> Logout</a></li>
                     ?>
                     <?php
